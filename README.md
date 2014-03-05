@@ -4,13 +4,16 @@ MSS lets mobile devices to check that server is running and that app mobile vers
 
 ## Install
 
-* Add mobileserverstatus to INSTALLED_APP:
+* Add mobileserverstatus to INSTALLED_APPS:
+
     INSTALLED_APPS = (
         [..]
         'mobileserverstatus',
         [..]
     )
+
 * Add the application to urls:
+
     (r'^status/', include('mobileserverstatus.urls')),
 
 * Add one message to django /admin/mobileserverstatus/message/.
