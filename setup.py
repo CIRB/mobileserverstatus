@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name            = 'mobileserverstatus',
-    version         = '1.0',
+    version         = '1.0.2',
     description     = 'MSS lets mobile devices to check that server is running and that app mobile version up to date.',
     author          = 'CIRB',
     author_email    = 'django@cirb.irisnet.be',
